@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-import argparse
-from gendiff.commands.gendiff_info import gendiff
+from gendiff.cli import gendiff
 
 def main():
 	gendiff()
